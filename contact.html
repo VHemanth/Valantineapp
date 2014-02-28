@@ -1,0 +1,128 @@
+<!--
+Author: Hemanth Vidyamari
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Valentine's Day for FireFox OS</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="About Valentine's Day" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(
+hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!--nav-->
+<script src="js/jquery-1.9.1.min.js"></script> 
+<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+</script> 
+<script src="js/jquery.easydropdown.js"></script> 
+</head>
+<body>
+<!-- start header-->
+<div class="header_bg">
+<div class="wrap">
+	<div class="header">
+		<div class="logo">
+			<a href="index.html"></a>
+		</div>
+		<div class="clear"></div>
+		<div class="header_right">
+		<div class="quick_link">
+			<h2><a href="site_map.html">Quick links <i class="icon1"> </i></a></h2>
+		</div>
+		<div class="drp-dwn">
+				     <div class="dropdown-button">
+					  <select class="dropdown" tabindex="9" data-settings='{"wrapperClass":"flat"}'>
+            			<option value="0">Select dropdown</option>	
+						<option value="1">India</option>
+						<option value="2">USA</option>
+						<option value="3">UK</option>
+						<option value="4">Australia</option>
+						<option value="5">Europe</option>
+					  </select>
+					 </div>
+		</div>
+	</div>
+	<div class="clear"></div>
+	<div class="top-nav">
+		<nav class="clearfix">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="travel_guide.html">History</a></li>
+					<li><a href="about.html">Gallery</a></li>
+					<li ><a href="service.html">Quotes</a></li>
+					<li ><a href="contact.html">About</a></li>
+				</ul>
+				<a href="#" id="pull">Menu</a>
+			</nav>
+		</div>
+	</div>
+</div>
+</div>
+<!-- start top-->
+<div class="top_bg">
+<div class="wrap">
+	<div class="top_grids1">
+		<div class="top_grids_text">
+			<h2>Happy Valentine's Day </h2>
+			<p>what means that</p>
+		</div>
+		<div class="top_map1">
+			<ul>
+				<li class="map"></li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>	
+</div>
+</div>
+<!-- start content -->
+<div class="content_bg">
+<div class="wrap">
+	<div class="content">
+		<div class="content_text about">
+			<h2>Contact Us </h2>
+			<p>we'll some of us any ways</p>
+		</div>
+	<!-- start main_btm -->
+				<div class="contact">
+					<div class="company_address">
+						<p> </p>
+				     	<h3>Developer Details</h3>
+						<p>Hemanth.V</p>
+						<p>India</p>
+				 	 	<p>Email : <a href="#">vi.hemanth@gmail.com</a></p>
+				   </div>
+					
+	</div>
+</div>
+</div>
+<!-- start footer -->
+<div class="footer_bg">
+<div class="wrap">
+	<div class="footer">
+		     
+	<div class="footer_top">
+			<p class="link"><span>© All rights reserved | Hem@nth&nbsp; </span></p>
+	</div>
+</div>
+</div>	
+</body>
+</html>

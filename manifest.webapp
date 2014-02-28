@@ -1,0 +1,13 @@
+{
+  "name": "valantine_HH",
+  "description": "About Valantine",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/val1.png"
+  },
+  "developer": {
+    "name": "Hemanth",
+    "url": "http://your-homepage-here.org"
+  },
+  "default_locale": "en"
+}

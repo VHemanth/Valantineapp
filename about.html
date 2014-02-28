@@ -1,0 +1,186 @@
+<!--
+Author: Hemanth Vidyamari
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Valentine's Day for FireFox OS</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="About Valentine's Day" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(
+hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!--nav-->
+<script src="js/jquery-1.9.1.min.js"></script> 
+<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+</script> 
+<script src="js/jquery.easydropdown.js"></script> 
+</head>
+<body>
+<!-- start header-->
+<div class="header_bg">
+<div class="wrap">
+	<div class="header">
+		<div class="logo">
+			<a href="index.html"></a>
+		</div>
+		<div class="clear"></div>
+		<div class="header_right">
+		<div class="quick_link">
+			<h2><a href="site_map.html">Quick links <i class="icon1"> </i></a></h2>
+		</div>
+		<div class="drp-dwn">
+				     <div class="dropdown-button">
+					  <select class="dropdown" tabindex="9" data-settings='{"wrapperClass":"flat"}'>
+            			<option value="0">Select dropdown</option>	
+						<option value="1">India</option>
+						<option value="2">USA</option>
+						<option value="3">UK</option>
+						<option value="4">Australia</option>
+						<option value="5">Europe</option>
+					  </select>
+					 </div>
+		</div>
+	</div>
+	<div class="clear"></div>
+	<div class="top-nav">
+		<nav class="clearfix">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="travel_guide.html">History</a></li>
+					<li><a href="about.html">Gallery</a></li>
+					<li ><a href="service.html">Quotes</a></li>
+					<li ><a href="contact.html">About</a></li>
+				</ul>
+				<a href="#" id="pull">Menu</a>
+			</nav>
+		</div>
+	</div>
+</div>
+</div>
+<!-- start top-->
+<div class="top_bg">
+<div class="wrap">
+	<div class="top_grids1">
+		<div class="top_grids_text">
+			<h2>Happy Valentine's Day </h2>
+			<p>what means that</p>
+		</div>
+		<div class="top_map1">
+			<ul>
+				<li class="map"></li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>	
+</div>
+</div>
+<!-- start content -->
+<div class="content_bg">
+<div class="wrap">
+	<div class="content">
+		<div class="content_text about">
+			<h2>Valentine's Day Images</h2>
+			<p>we'll some of Them</p>
+		</div>
+					<!-- start popup -->
+						 				<div id="small-dialog" class="mfp-hide">
+											<div class="pop_up">
+											 	<h2> Love</h2>
+											 	<img src="images/val_img_1.jpg" title="image-name">
+												
+								  			</div>
+										</div>
+	
+						<!-- end popup -->	
+			<!-- start btm_grids -->
+		     <div class="btm_grids">
+				<div class="btm_grid">
+					<div class="ser-grid-list img_style">
+						<div class="gallery">
+							<a class="popup-with-zoom-anim" href="#small-dialog1"><img src="images/val_img_1.jpg" title="image-name"></a>
+						</div>
+						
+					</div>
+					<div class="ser-grid-list img_style">
+						<div class="gallery">
+							<a class="popup-with-zoom-anim" href="#small-dialog2"><img src="images/val_img_2.jpg" title="image-name"></a>
+						</div>
+						
+					</div>
+					<div class="ser-grid-list img_style">
+						<div class="gallery">
+							<a class="popup-with-zoom-anim" href="#small-dialog3"><img src="images/Val_img_3.jpg" title="image-name"></a>
+						</div>
+						
+					</div>
+					<div class="ser-grid-list img_style">
+						<div class="gallery">
+							<a class="popup-with-zoom-anim" href="#small-dialog4"><img src="images/Val_img_4.jpg" title="image-name"></a>
+						</div>
+						
+					</div>
+					<div class="clear"></div>
+					</div>
+				<div class="btm_grid top">
+					<div class="ser-grid-list img_style">
+						<div class="gallery">
+							<a class="popup-with-zoom-anim" href="#small-dialog5"><img src="images/Val_img_5.jpg" title="image-name"></a>
+						</div>
+						
+					</div>
+					<div class="btm_grid top">
+					<div class="ser-grid-list img_style">
+						<div class="gallery">
+							<a class="popup-with-zoom-anim" href="#small-dialog6"><img src="images/Val_img_6.jpg" title="image-name"></a>
+						</div>
+						
+					</div>
+					<div class="ser-grid-list img_style">
+						<div class="gallery">
+							<a class="popup-with-zoom-anim" href="#small-dialog7"><img src="images/Val_img_7.jpg" title="image-name"></a>
+						</div>
+						
+					</div>
+					<div class="ser-grid-list img_style">
+						<div class="gallery">
+							<a class="popup-with-zoom-anim" href="#small-dialog8"><img src="images/Val_img_8.jpg" title="image-name"></a>
+						</div>
+						
+					</div>
+					<div class="clear"></div>
+					</div>					
+		 </div>			
+	</div>
+</div>
+</div>
+<!-- start footer -->
+<div class="footer_bg">
+<div class="wrap">
+	<div class="footer">
+		     
+	<div class="footer_top">
+			<p class="link"><span>© All rights reserved | Hem@nth&nbsp; </span></p>
+	</div>
+</div>
+</div>	
+</body>
+</html>
